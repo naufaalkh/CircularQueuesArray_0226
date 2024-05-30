@@ -99,5 +99,14 @@ public:
             }
             cout << endl;
         }
+
+        FRONT_Position = 0;
+
+        // Iterasi dari awal array hingga REAR
+        while (FRONT_Position <= REAR_Position)
+        {
+            cout << queue_array[FRONT_Position] << " ";
+            FRONT_Position++;
+        }
     }
 };
